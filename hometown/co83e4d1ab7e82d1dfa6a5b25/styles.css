@@ -1,0 +1,84 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+/* <!-- GENERAL SECTION --> */
+body {
+    margin: 0;
+    text-align: center;
+    background: #2d6a4f;
+}
+
+img {
+    height: 100px;
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+/* <!-- HERO SECTION --> */
+#first-section {
+    background-image: url("images/4.jpg");
+    background-size: 100%;
+    color: #d8f3dc;
+}
+
+.msg {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+#title {
+    margin-bottom: 0;
+    background: #081c15;
+    padding: 10px 20px;
+}
+
+#sub-title {
+    background: #1b4332;
+    padding: 5px 10px;
+}
+
+/* <!-- ACTIVITIES SECTION --> */
+#second-title {
+    background: #2d6a4f;
+    color: #d8f3dc;
+    margin: 10px;
+}
+
+#second-section {
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-around;
+    height: 150px;
+    background: #2d6a4f;
+}
+
+/* <!-- GUIDE SECTION --> */
+#card-img {
+    margin: 0px 10px;
+    border: 3px solid #74c69d;
+    border-radius: 50%
+}
+
+#third-section {
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    width: 350px;
+    border: 3px solid #52b788;
+    margin: 0px auto;
+    background: #b7e4c7;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #1b4332;
+}
